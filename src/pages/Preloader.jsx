@@ -46,7 +46,7 @@ const Preloader = () => {
                 <text
                   x="50%"
                   y="50%"
-                  fontSize="150"
+                  fontSize="250"
                   textAnchor="middle"
                   fill="white"
                   dominantBaseline="middle"

@@ -56,11 +56,7 @@ export default function LandingPage_Back() {
 
       <div className="w-full flex justify-center text-[180vw] mt-[-2vh] leading-[1] tracking-[-0.10em] animate-pulse md:hidden">{currentHour}</div>
 
-      <img
-        className=" absolute left-1/2 -translate-x-1/2 bottom-0 z-[2] w-[100vh] min-h-max mx-auto filter contrast-[1.05] brightness-[.9] max-xl:w-[95vh] max-sm:scale-[1.8] max-sm:ml-[1rem] max-[375px]:w-[52vh]"
-        src="./Images/Background3.png"
-        alt=""
-      />
+     
 
       <div className="absolute top-0 left-0 z-[1] w-full h-screen pt-[6vw] flex flex-col items-center justify-center ease-linear max-sm:hidden">
         <h1

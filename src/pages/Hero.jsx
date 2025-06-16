@@ -1,6 +1,5 @@
 import LandingPage_Back from "../ui/LandingPage_Back";
 import { FaScissors } from "react-icons/fa6";
-import { motion } from "framer-motion";
 import mybgimg from "/mybg.png";
 import { RiDownloadLine } from "react-icons/ri";
 
@@ -20,7 +19,7 @@ const Hero = () => {
           <div className="imagediv relative  w-full h-screen  overflow-hidden">
             <LandingPage_Back />
             <img
-              className="w-1/2 h-1/2 transition-opacity duration-1000 opacity-100 absolute left-1/2 top-1/2 transform -translate-x-1/2 translate-y-1/4 scale-[3] object-contain pointer-events-none z-10"
+              className="w-1/2 h-1/2 transition-opacity duration-1000 opacity-100 absolute left-1/2 top-1/2 transform -translate-x-1/2 translate-y-1/4 lg:scale-[3] scale-[3.6] object-contain pointer-events-none z-10"
               src={mybgimg}
               alt=""
               loading="eager"

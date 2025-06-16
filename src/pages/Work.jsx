@@ -42,14 +42,20 @@ const Work = () => {
         viewport={{ once: false, amount: 0.4 }}
         className="relative w-full h-full border-b-2 border-dashed border-amber-100"
       >
-        <motion.div  initial={{ opacity: 0, x: -60 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8, delay: 1 }} className="text-amber-100 text-3xl absolute z-10 -bottom-4 left-[30vw] rotate-y-180">
+        <motion.div
+          initial={{ opacity: 0, x: -60 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 1 }}
+          className="text-amber-100 text-3xl absolute z-10 -bottom-4 left-[30vw] rotate-y-180"
+        >
           <FaScissors />
         </motion.div>
-        <motion.div  initial={{ opacity: 0, x: -30 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8, delay: 0.5 }} className="text-left lg:m-10 md:text-left  px-4 md:px-0  flex items-center justify-start ">
+        <motion.div
+          initial={{ opacity: 0, x: -30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className="text-left lg:m-10 md:text-left  px-4 md:px-0  flex items-center justify-start "
+        >
           <BsStars className="text-[#39ff14] text-9xl opacity-0 lg:opacity-100 " />
           <h1 className="text-[10vw]   md:text-5xl lg:text-8xl font-bold text-white leading-tighter lg:text-left text-center ">
             <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 text-transparent bg-clip-text mr"></span>
