@@ -14,7 +14,7 @@ const MoreAbout = () => {
           </h1>
         </RevealWrapper>
 
-        <div className="w-20 lg:w-40 lg:h-40 text-3xl lg:text-8xl h-20 bg-blue-700 rounded-full absolute z-10 right-15 lg:right-96 lg:top-72 top-42 ease-in-out flex items-center justify-center spin-30s">
+        <div className="w-20 lg:w-40 lg:h-40 text-3xl lg:text-8xl h-20 bg-blue-700 rounded-full absolute z-10 right-15 lg:right-96 lg:top-72 top-32 ease-in-out flex items-center justify-center spin-30s">
           <BsGlobe className="text-3xl lg:text-8xl" />
         </div>
       </div>
@@ -26,7 +26,7 @@ const MoreAbout = () => {
           </h1>
         </RevealWrapper>
 
-        <div className="w-fit h-[60vw] object-center">
+        <div className="w-fit h-[60vw] object-center mb-6">
           <img
             className="lg:w-full lg:h-full h-[100vw] w-full object-center ml-2"
             src="./aboutpic.JPG"
@@ -35,7 +35,7 @@ const MoreAbout = () => {
         </div>
       </div>
 
-      <div className="lg:w-7xl lg:p-8 lg:m-20 m-8">
+      <div className="lg:w-7xl lg:p-8 lg:m-20 m-14">
         <RevealWrapper delay={0.3}>
           <h1 className="text-2xl lg:text-4xl lg:w-4xl lg:mt-0 mt-38">
             I can help you with clean, responsive web design and modern frontend development.
